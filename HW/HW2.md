@@ -4,7 +4,7 @@ mcmc = function(a,d,m,sd) {
     dta2 = dta+1
     dta3 = cumprod(dta2)
     dta4 <- data.frame(dta4,dta3)
-     matplot(dta4,type = "l",)
+     matplot(dta4,type = "l",main = "MCMC SIM")
   }
 }
 mcmc(6,50,0,.05)
